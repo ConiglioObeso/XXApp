@@ -1,3 +1,5 @@
+import SwiftUI
+
 struct RigaEvento: View
 {
     let evento = Evento
