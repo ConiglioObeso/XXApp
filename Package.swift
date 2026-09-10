@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "XXApp",
+    name: "XXApp", platforms: [.macOS(.v14)],
     dependencies: [
         .package(url: "https://github.com/OpenSwiftUIProject/OpenCombine.git", from: "0.14.0")
     ],
