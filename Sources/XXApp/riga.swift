@@ -2,7 +2,7 @@ import SwiftUI
 
 struct RigaEvento: View
 {
-    let evento = Evento
+    let evento: Evento
 
     var body: some View
     {
