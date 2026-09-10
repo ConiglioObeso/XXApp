@@ -1,1 +1,12 @@
-``yaml name: Build on: push: branches: [ main ] jobs: build: runs-on: macos-15 steps: - uses: actions/checkout@v4 - run: swift build ``
+name: Build
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift build
